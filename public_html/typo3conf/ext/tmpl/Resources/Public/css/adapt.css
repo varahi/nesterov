@@ -1,0 +1,171 @@
+@media screen and (max-width: 912px) {
+
+.container {
+	padding: 0 25px;
+}
+.site-header .links a {
+	margin-left: 30px;
+}
+.menu > ul > li > a {
+	padding-left: 25px;
+}
+.menu > ul > li > a::before {
+	left: 25px;
+}
+.slider-stocks .item {
+	-ms-align-items: center;
+	align-items: center;
+}
+.slider-stocks .item .text {
+	padding: 25px 0 0 25px;
+}
+.modal {
+	max-width: 600px;
+	padding: 22px 20px 17px;
+}
+.mfp-close-btn-in .mfp-close {
+	right: 0; top: -38px;
+}
+.modal form {
+	justify-content: space-between;
+}
+.form-item {
+	margin-right: 0;
+	width: 48%;
+}
+.item-checkbox {
+	margin-left: 0; margin-right: 10px;
+}
+.modal form button {
+	width: 48%; margin-right: 0;
+}
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+.site-header {
+	position: fixed; left: 0; top: 0; right: 0; z-index: 100;
+}
+.site-header .links {
+	order: 2; padding-right: 40px; display: none;
+}
+.site-header .links a {
+	overflow: hidden; padding-left: 0; width: 29px; height: 29px; margin-left: 10px;
+}
+.site-header .links a span {
+	display: none;
+}
+.site-header .row {
+	height: 42px;
+}
+.site-header .logo {
+	padding-bottom: 0;
+}
+.site-header .logo img {
+	height: 22px;
+}
+.site-header .contacts {
+	padding-right: 32px; margin-right: 25px; border-right: solid 1px rgba(204,204,204,.2)
+}
+.site-header .phone-no {
+	font-size: 14px; margin: 0;
+}
+.bt-menu {
+	display: block;
+}
+.menu {
+	display: none; position: fixed; top: 42px; right: 0; bottom: 0; width: 100%;
+}
+.promo-box {
+	background-position: 100% 0; padding: 90px 0 100px;
+}
+.promo-box .row {
+	height: auto;
+}
+.promo-box .entry {
+	max-width: 100%;
+}
+.site-footer {
+	padding: 25px 0 40px;
+}
+.site-footer .row {
+	height: auto;
+}
+.site-footer .copy {
+	width: 100%; padding: 10px 0 20px;
+}
+.stock-box {
+	padding: 60px 0 45px;
+}
+.main-content {
+	padding: 0 0 50px;
+}
+.front-content .bg {
+	width: 100%;
+}
+.site-body .container {
+	padding: 0;
+}
+.content-wrap {
+	padding: 0 20px;
+}
+.site-body .menu {
+	top: 42px;
+}
+.promo-box .logotype {
+	display: none;
+}
+.promo-box .entry {
+	z-index: 0;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+.promo-box H1 {
+	font-size: 18px;
+}
+.promo-box .link {
+	font-size: 14px;
+}
+.services-box .item {
+	width: 100%; margin-right: 0;
+}
+
+.slider-stocks .item .photo {
+	width: 100%;
+}
+.slider-stocks .item .text {
+	position: static; width: 100%; margin-top: 0; padding: 20px 40px 30px 0; overflow: hidden;
+}
+.slider-stocks .item .text:before {
+	top: 15px; right: 0; left: auto;
+}
+.slick-arrow {
+	bottom: 0;
+}
+.slider-stocks .item .ttl {
+	font-size: 18px; border-bottom-width: 1px;
+}
+.modal form {
+	justify-content: flex-start;
+}
+.item-checkbox {
+	margin: 20px 10px 0 0;
+}
+.form-item {
+	margin-right: 6%; width: 47%;
+}
+.form-item:nth-child(2n) {
+	margin-right: 0;
+}
+.modal form button {
+	width: 100%; max-width: 214px; margin: 30px auto 0;
+}
+
+}
