@@ -1,0 +1,51 @@
+{
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://composer.typo3.org/"
+		}
+	],
+	"name" : "typo3/cms-base-distribution",
+	"description" : "Inkluviva Site",
+	"type": "project",
+    "authors": [
+      {
+        "name": "Dmitry Vasilev",
+        "email": "info@t3dev.ru"
+      }
+  ],
+	"license" : "GPL-2.0+",
+	"require" : {
+		"typo3/cms" : "^8.7",
+		"georgringer/news" : "^6.1",
+		"typo3-ter/realurl" : "^2.3",
+		"typo3-ter/powermail" : "^5.6",
+		"typo3-ter/sourceopt" : "^1.0",
+		"friendsoftypo3/extension-builder" : "^8.7",
+		"helhum/typo3-console" : "^5.0@dev",
+		"typo3-ter/gridelements": "^8.0",
+		"typo3-ter/lfeditor": "^4.0",
+		"joppnet/jn_lighterbox": "^1.0",
+		"clickstorm/cs_seo": "^3.0",
+		"jonathanheilmann/jh_magnificpopup": "^1.0"
+	},
+	"extra" : {
+		"typo3/cms" : {
+			"cms-package-dir" : "{$vendor-dir}/typo3/cms",
+			"web-dir" : "public_html"
+		},
+		"helhum/typo3-console": {
+			"install-extension-dummy": false
+		},
+		"helhum/dotenv-connector": {
+			"cache-dir": "var/cache"
+		}
+	},
+	"require-dev" : {
+		"typo3-ter/extension-builder" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"T3Dev\\Tmpl\\" : "htdocs/typo3conf/ext/tmpl/Classes"
+		}
+	}
+}
