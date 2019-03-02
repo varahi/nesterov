@@ -21,8 +21,40 @@ lib.logo {
     }
 }
 
+lib.footerLogo = IMAGE
+lib.footerLogo {
+    wrap = <div class="logo">|</div>
+    file = EXT:tmpl/Resources/Public/i/logo-f.png
+    stdWrap {
+        typolink.parameter = {$config.layout.header.logo.link}
+        typolink.title = {$config.layout.header.logo.title}
+    }
+}
+
 lib.topPhone = TEXT
 lib.topPhone {
     wrap = <div class="contacts">|</div>
     value = {$config.layout.header.contact.phone}
+}
+
+lib.copyright = TEXT
+lib.copyright {
+    wrap = <div class="copy">|</div>
+    value = {$config.layout.footer.copyright}
+}
+
+lib.footerSocial = COA
+lib.footerSocial {
+    wrap = <div class="share">|</div>
+    10 = IMAGE
+    10 {
+        file = EXT:tmpl/Resources/Public/i/insta.png
+        stdWrap {
+            typolink {
+                //ATagParams = class="social__item social-fb"
+                parameter = {$config.layout.footer.instaLink}
+                extTarget = _blank
+            }
+        }
+    }
 }

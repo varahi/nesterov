@@ -20,9 +20,8 @@ config {
             }
         }
         footer {
-            copyright = &copy;
-            developerText =
-            developerLink =
+            copyright = &copy; 2019 Декоративное оформление стеклянных витрин магазинов и кафе
+            instaLink = https://www.instagram.com/?hl=ru
         }
     }
 }
