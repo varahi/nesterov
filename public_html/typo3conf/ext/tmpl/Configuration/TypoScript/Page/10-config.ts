@@ -18,7 +18,7 @@ config {
     pageTitleSeparator.noTrimWrap = | | |
 
     # URL setup
-    tx_realurl_enable = 1
+    tx_realurl_enable = 0
     absRefPrefix = auto
 
     # some css and js cleanups
@@ -33,10 +33,15 @@ config {
     #typolinkCheckRootline = 1
     #typolinkEnableLinksAcrossDomains = 1
 
-    //concatenateJs = 1
-    //concatenateCss = 1
-    //compressJs = 1
-    //compressCss = 1
+    concatenateJs = 1
+    concatenateCss = 1
+    compressJs = 1
+    compressCss = 1
 }
 
 config.contentObjectExceptionHandler = 0
+
+page.config.headerComment (
+  TYPO3 Programming by Dmitry Vasilev dmitry@t3dev.ru
+  ___________________________________________________
+)
