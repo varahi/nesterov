@@ -1,0 +1,84 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<div class="main-slider" data-autoplay-speed="{data.slider_data_autoplay_speed}" data-speed="{data.slider_data_speed}">
+	<f:for each="{slides}" as="item">
+		<div class="slide">
+			<div class="slide__thumbnail">
+				<f:image image="{item.images.0}" width="1920c" height="600c" class="img-responsive"
+					alt="{item.images.0.properties.alt}" title="{item.images.0.title}" />			
+			</div>
+					
+      <div class="slide__content hidden-xs hidden-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="b-main-slider-teaser">
+                <f:if condition="{item.data.title}">
+                	<h2>{item.data.title}</h2>
+                </f:if>
+                <f:if condition="{item.data.caption}">
+                	<p>{item.data.caption}</p>
+                </f:if>
+              </div>
+              <f:if condition="{item.data.link}">
+              	<f:link.page pageUid="{item.data.link}" class="blue-btn">
+                	<icon class="icon icon-white-arrow"></icon>
+						<f:if condition="{item.data.link_title}">
+							<f:then>{item.data.link_title}</f:then>
+							<f:else>
+								<f:translate key="slider.link.job" extensionName="tmpl"/>
+							</f:else>
+						</f:if>
+              	</f:link.page>
+              </f:if>
+            </div>
+          </div>
+        </div>
+      </div>			
+			
+		</div>
+	</f:for>
+</div>
+
+<div class="main-slider-nav-wraper">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+      	<div class="slider-arrows-ctrl">
+          <a href="#" class="slider-arrow slider-arrow_prev"></a>
+        	<a href="#" class="slider-arrow slider-arrow_next"></a>
+        </div>	
+        <div class="main-slider-nav">
+      		<f:for each="{slides}" as="item">	
+            <div class="main-slider-nav__item text-center" data-mh="slider-nav-gr">
+            	<f:if condition="{item.data.title}">
+               	<h4>{item.data.title}</h4>
+              </f:if>
+              <f:if condition="{item.data.caption}">
+              	<p>{item.data.caption}</p>
+              </f:if>  
+              <div class="hidden-md hidden-lg">
+                <a href="#" class="blue-btn">
+                  <icon class="icon icon-white-arrow"></icon>
+					<f:if condition="{item.data.link_title}">
+						<f:then>{item.data.link_title}</f:then>
+						<f:else>
+							<f:translate key="slider.link.more.title" default="slider.link.more.title" extensionName="tmpl"/>
+						</f:else>
+					</f:if>
+                </a>
+              </div>
+            </div>        		    		
+      		</f:for>        
+        </div>		
+			</div>
+		</div>
+    <div class="row">
+    	<div class="col-xs-12">
+      	<div class="dots-ctrl"></div>
+      </div>
+    </div>		
+	</div>
+</div>
+
+</html>

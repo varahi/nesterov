@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2018-02-05T10:33:19Z">
+        <header>
+            <generator>LFEditor</generator>
+        </header>
+        <body>
+            <trans-unit id="gridelement.flexform.left_column">
+                <source>Left column</source>
+            </trans-unit>
+            <trans-unit id="gridelement.flexform.center_column">
+                <source>Center column</source>
+            </trans-unit>
+            <trans-unit id="gridelement.flexform.right_column">
+                <source>Right column</source>
+            </trans-unit>
+
+            <trans-unit id="tca.tab.sliderElements">
+                <source>Slider Elements</source>
+            </trans-unit>
+            <trans-unit id="tt_content.slider_data_speed">
+                <source>Slider data speed</source>
+            </trans-unit>
+            <trans-unit id="tt_content.slider_data_autoplay_speed">
+                <source>Slider autoplay speed</source>
+            </trans-unit>
+
+            <trans-unit id="wizard.simple_slider_title">
+                <source>Simple slider</source>
+            </trans-unit>
+            <trans-unit id="wizard.simple_slider_description">
+                <source>Simple slidr on main page</source>
+            </trans-unit>
+
+            <trans-unit id="tx_tmplcemainslider_item">
+                <source>Mainpage Slider Item</source>
+            </trans-unit>
+            <trans-unit id="tx_tmplcemainslider_item.caption">
+                <source>Caption</source>
+            </trans-unit>
+            <trans-unit id="tx_tmplcemainslider_item.image">
+                <source>Image</source>
+            </trans-unit>
+            <trans-unit id="tx_tmplcemainslider_item.link">
+                <source>Link</source>
+            </trans-unit>
+            <trans-unit id="tx_tmplcemainslider_item.link_title">
+                <source>Text under link</source>
+            </trans-unit>
+            <trans-unit id="tx_tmplcemainslider_item.title">
+                <source>Title</source>
+            </trans-unit>
+
+            <trans-unit id="wizard.mainpage_slider_description">
+                <source>Mainpage Slider</source>
+            </trans-unit>
+            <trans-unit id="wizard.mainpage_slider_item">
+                <source>Mainpage slider item</source>
+            </trans-unit>
+            <trans-unit id="wizard.mainpage_slider_title">
+                <source>Mainpage Slider</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

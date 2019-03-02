@@ -9,10 +9,11 @@ page {
     # include is in header
     includeJS {
         10_jquery = EXT:tmpl/Resources/Public/js/jquery-3.3.1.min.js
-        20_placeholder = EXT:tmpl/Resources/Public/js/js/jquery.placeholder.min.js
+        20_placeholder = EXT:tmpl/Resources/Public/js/jquery.placeholder.min.js
         30_masked = EXT:tmpl/Resources/Public/js/jquery.maskedinput.js
         40_toshowhide = EXT:tmpl/Resources/Public/js/jquery.toshowhide.js
         50_slick = EXT:tmpl/Resources/Public/js/slick.min.js
+        60_magnificpopup = EXT:tmpl/Resources/Public/js/jquery.magnific-popup.min.js
         //60_magnific = EXT:tmpl/Resources/Public/js/jquery.toshowhide.js
         70_jquery = EXT:tmpl/Resources/Public/js/main.js
     }
@@ -21,7 +22,7 @@ page {
     includeCSS {
         10_style = EXT:tmpl/Resources/Public/css/style.css
         20_fonts = EXT:tmpl/Resources/Public/css/fonts.css
-        //20_magnificpopup = EXT:tmpl/Resources/Public/css/css/magnific-popup.min.css
+        20_magnificpopup = EXT:tmpl/Resources/Public/css/magnific-popup.min.css
         40_fonts = EXT:tmpl/Resources/Public/css/adapt.css
     }
 

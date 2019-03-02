@@ -18,6 +18,6 @@ if (TYPO3_MODE === 'BE') {
         = T3Dev\Tmpl\DataProvider\BackendLayoutDataProvider::class;
 
     // Register hook to show preview of tt_content element of CType="fluid_styled_slider" in page module
-    //$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['cms/layout/class.tx_cms_layout.php']['tt_content_drawItem']['ce_simple_slider']
-    //    = \T3Dev\Tmpl\Hooks\SliderPreviewRenderer::class;
+    $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['cms/layout/class.tx_cms_layout.php']['tt_content_drawItem']['ce_simple_slider']
+        = \T3Dev\Tmpl\Hooks\SliderPreviewRenderer::class;
 }

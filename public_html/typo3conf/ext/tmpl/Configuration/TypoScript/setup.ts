@@ -7,5 +7,10 @@
 # GridElements
 ##############
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:tmpl/Gridelements/Grid_3Cols/Configuration/TypoScript/setup.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tmpl/Gridelements/News_Container/Configuration/TypoScript/setup.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tmpl/Gridelements/Search_Container/Configuration/TypoScript/setup.ts">
+
+# Ce content elements
+##############
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:tmpl/Ce/ce_mainpage_slider/Configuration/TypoScript/" extensions="ts">
+
+# Turned off
+#<INCLUDE_TYPOSCRIPT: source="DIR:EXT:tmpl/Ce/ce_simple_slider/Configuration/TypoScript/" extensions="ts">
