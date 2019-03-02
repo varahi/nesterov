@@ -128,9 +128,6 @@ return [
         'jh_magnificpopup' => [
             'packagePath' => 'typo3conf/ext/jh_magnificpopup/',
         ],
-        'jn_lighterbox' => [
-            'packagePath' => 'typo3conf/ext/jn_lighterbox/',
-        ],
         'lfeditor' => [
             'packagePath' => 'typo3conf/ext/lfeditor/',
         ],

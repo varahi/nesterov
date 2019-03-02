@@ -1,0 +1,10 @@
+
+.ce-left {
+    margin: 20px 20px 0 0;
+}
+
+.ce-intext.ce-right .ce-gallery, .ce-intext.ce-left .ce-gallery, .ce-above .ce-gallery {
+    margin-bottom: 5px;
+}
+
+

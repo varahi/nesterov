@@ -12,7 +12,7 @@ lib.navigation {
         NO.linkWrap = <span>|</span>
         NO.ATagBeforeWrap = 1
         CUR = 1
-        CUR.wrapItemAndSub = <li class="active">|</li>
+        CUR.wrapItemAndSub = <li class="">|</li>
         ACT < .CUR
     }
     2 = TMENU

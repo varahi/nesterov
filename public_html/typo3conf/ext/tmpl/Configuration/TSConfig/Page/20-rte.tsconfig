@@ -1,0 +1,5 @@
+//RTE.tt_content.types.textmedia.bodytext.preset = full
+//RTE.config.tt_content.bodytext.types.text.preset = tmpl_presets
+
+RTE.config.tt_content.bodytext.preset = tmpl_presets
+//RTE.config.tx_news_domain_model_news.bodytext.preset = default
