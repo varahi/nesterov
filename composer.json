@@ -23,7 +23,7 @@
 		"friendsoftypo3/extension-builder" : "^8.7",
 		"helhum/typo3-console" : "^5.0@dev",
 		"typo3-ter/gridelements": "^8.0",
-		"typo3-ter/lfeditor": "^4.0",
+		"typo3-ter/lfeditor": "^4.4",
 		"joppnet/jn_lighterbox": "^1.0",
 		"clickstorm/cs_seo": "^3.0",
 		"jonathanheilmann/jh_magnificpopup": "^1.0"
