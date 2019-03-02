@@ -1,5 +1,29 @@
-<f:layout name="standard" />
+<f:render partial="Header/Header" arguments="{_all}" />
 
-<f:section name="section_content">
-    {content -> f:format.raw()}
-</f:section>
+<div class="site-body">
+    <div class="container">
+        <f:cObject typoscriptObjectPath="lib.navigation" />
+
+        <div class="main-content">
+            <div class="front-content">
+                <div class="bg" style="background-image: url(<f:cObject typoscriptObjectPath="lib.pageBgImg" />)"></div>
+
+                <div class="bar">
+                    <div class="content-wrap">
+                        <f:cObject typoscriptObjectPath="lib.breadcrumb" />
+                        <f:cObject typoscriptObjectPath="lib.pagetitle" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-wrap">
+                <f:render section="section_content" />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<f:render partial="Footer/Footer" arguments="{_all}" />
+<f:render partial="Footer/Calc" arguments="{_all}" />
+
