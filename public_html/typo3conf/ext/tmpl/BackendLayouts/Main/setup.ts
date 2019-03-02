@@ -1,12 +1,12 @@
 backend_layout {
     colCount = 2
-    rowCount = 5
+    rowCount = 3
     rows {
         1 {
             columns {
                 1 {
-                    name = ###LOCAL_LANG###:section_about
-                    colPos = 0
+                    name = ###LOCAL_LANG###:section_topinfo
+                    colPos = 1
                     colspan = 2
                 }
             }
@@ -14,8 +14,8 @@ backend_layout {
         2 {
             columns {
                 1 {
-                    name = ###LOCAL_LANG###:section_stock
-                    colPos = 2
+                    name = ###LOCAL_LANG###:section_content
+                    colPos = 0
                     colspan = 2
                 }
             }
@@ -23,26 +23,8 @@ backend_layout {
         3 {
             columns {
                 1 {
-                    name = ###LOCAL_LANG###:section_oil
-                    colPos = 3
-                    colspan = 2
-                }
-            }
-        }
-        4 {
-            columns {
-                1 {
-                    name = ###LOCAL_LANG###:section_map
-                    colPos = 4
-                    colspan = 2
-                }
-            }
-        }
-        5 {
-            columns {
-                1 {
-                    name = ###LOCAL_LANG###:section_map_no_bg
-                    colPos = 5
+                    name = ###LOCAL_LANG###:section_content2
+                    colPos = 2
                     colspan = 2
                 }
             }

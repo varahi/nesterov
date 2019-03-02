@@ -6,26 +6,25 @@ config {
     sys_language_uid = 0
 
     navigation {
-    # cat=EXT:tmpl: basic/120/10; type=string; label= Page-Id der Homeseite
         startPageUid = 1
+    }
 
-    # Foter social links
-        facebookLink = fb.com
-        vkLink = vk.com
-        youtubeLink = youtube.com
-    }
-    header {
-        logoTitle = Fuchs oil worldwide
-    }
     layout {
-
+        header {
+            logo {
+                link = 1
+                title = Nesterov
+            }
+            contact {
+                phone = <a href="tel:+74959223941" class="phone-no">+7 (495) 922-39-41</a>
+            }
+        }
+        footer {
+            copyright = &copy;
+            developerText =
+            developerLink =
+        }
     }
-    footer {
-        copyright = &copy; Fuchs oil worldwide. 2018
-        developerText = Кропотливо создано компанией - "Простые технологии"
-        developerLink =
-    }
-
 }
 
 

@@ -1,0 +1,59 @@
+<f:render partial="Header/Header" arguments="{_all}" />
+
+<main class="promo-box">
+    <div class="container">
+
+        <f:cObject typoscriptObjectPath="lib.navigation" />
+        <f:cObject typoscriptObjectPath="lib.bannerLogo" />
+
+        <div class="row">
+            <div class="entry">
+                <f:render section="section_topinfo" />
+            </div>
+        </div>
+
+    </div>
+</main>
+
+
+<div class="services-box">
+    <div class="container">
+        <f:render section="section_content" />
+    </div>
+</div>
+
+<div class="stock-box">
+    <div class="container">
+
+        <f:render section="section_content2" />
+
+        <!-- <div class="slider-stocks">
+            <div class="item">
+                <div class="photo">
+                    <img src="files/pic1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>Акция</h2>
+                    <a href="" class="ttl">Оклейка офисных перегородок со скидкой до 15% весь март!</a>
+                    <span class="date">10 марта 2018</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="photo">
+                    <img src="files/pic1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>Акция</h2>
+                    <a href="" class="ttl">Оклейка офисных перегородок со скидкой до 15% весь март!</a>
+                    <span class="date">10 марта 2018</span>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>
+
+<f:render partial="Footer/Footer" arguments="{_all}" />
+<f:render partial="Footer/Calc" arguments="{_all}" />
+
+

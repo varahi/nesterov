@@ -20,7 +20,7 @@ page {
     # include css
     includeCSS {
         10_style = EXT:tmpl/Resources/Public/css/style.css
-        20_fonts = EXT:tmpl/Resources/Public/css/font.css
+        20_fonts = EXT:tmpl/Resources/Public/css/fonts.css
         //20_magnificpopup = EXT:tmpl/Resources/Public/css/css/magnific-popup.min.css
         40_fonts = EXT:tmpl/Resources/Public/css/adapt.css
     }

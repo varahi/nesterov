@@ -5,23 +5,14 @@
 			<generator>LFEditor</generator>
 		</header>
 		<body>
-			<trans-unit id="section_about">
-				<source><![CDATA[Section about]]></source>
+			<trans-unit id="section_topinfo">
+				<source><![CDATA[Section top info]]></source>
 			</trans-unit>
-			<trans-unit id="section_map">
-				<source><![CDATA[Section map]]></source>
+			<trans-unit id="section_content">
+				<source><![CDATA[Section content]]></source>
 			</trans-unit>
-			<trans-unit id="section_map_no_bg">
-				<source><![CDATA[Section map no bg]]></source>
-			</trans-unit>
-			<trans-unit id="section_oil">
-				<source><![CDATA[Section oil]]></source>
-			</trans-unit>
-			<trans-unit id="section_stock">
-				<source><![CDATA[Section stock]]></source>
-			</trans-unit>
-			<trans-unit id="title">
-				<source><![CDATA[Main Page]]></source>
+			<trans-unit id="section_content2">
+				<source><![CDATA[Section content 2]]></source>
 			</trans-unit>
 		</body>
 	</file>

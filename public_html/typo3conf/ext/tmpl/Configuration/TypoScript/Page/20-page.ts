@@ -37,6 +37,7 @@ page.10 {
         content {
             stdWrap.wrap = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
             stdWrap.required = 1
+            select.where = colPos=0
         }
         content_colpos1 < styles.content.get
         content_colpos1 {
@@ -50,34 +51,14 @@ page.10 {
             stdWrap.wrap = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
             stdWrap.required = 1
         }
-        content_colpos3 < styles.content.get
-        content_colpos3 {
-            select.where = colPos=3
-            stdWrap.wrap = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
-            stdWrap.required = 1
-        }
-        content_colpos4 < styles.content.get
-        content_colpos4 {
-            select.where = colPos=4
-            stdWrap.wrap = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
-            stdWrap.required = 1
-        }
-        content_colpos5 < styles.content.get
-        content_colpos5 {
-            select.where = colPos=5
-            stdWrap.wrap = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
-            stdWrap.required = 1
-        }
-
     }
 }
 
 // Standard pages with boy class "media-body"
+/*
 page.bodyTag = <body class="media-body">
-// Remove body class on main page
 [globalVar = TSFE:id = 1]
     page.bodyTag >
-    // Define page with map
 [PIDinRootline = 11]||[PIDinRootline = 23]
     page.bodyTag >
     page.bodyTag = <body class="map-body">
@@ -86,3 +67,4 @@ page.bodyTag = <body class="media-body">
     page.bodyTag >
     page.bodyTag = <body class="card-body">
 [global]
+*/
