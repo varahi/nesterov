@@ -11,6 +11,7 @@ config {
 
     layout {
         header {
+            instaTtitle = Instagram
             logo {
                 link = 1
                 title = Nesterov

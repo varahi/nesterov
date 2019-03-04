@@ -43,6 +43,24 @@ lib.copyright {
     value = {$config.layout.footer.copyright}
 }
 
+lib.headerSocial = COA
+lib.headerSocial {
+    10 = TEXT
+    10 {
+        value = {$config.layout.header.instaTtitle}
+        stdWrap {
+            typolink {
+                ATagParams = class="instagram"
+                parameter = {$config.layout.footer.instaLink}
+                extTarget = _blank
+                wrap = <span>|</span>
+                ATagBeforeWrap = 1
+            }
+        }
+
+    }
+}
+
 lib.footerSocial = COA
 lib.footerSocial {
     wrap = <div class="share">|</div>
