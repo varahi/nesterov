@@ -12,7 +12,7 @@ editor:
     stylesSet:
 #      - { name: "Bulletlist", element: "ul", attributes: { class: "csc-bulletlist"} }
       - { name: "Nice text", element: "p", attributes: { class: "nice-text"} }
-#      - { name: "Allgemeiner Download", element: "a", attributes: { class: "download"} }
+      - { name: "Class link", element: "a", attributes: { class: "link"} }
 
     format_tags: "p;h2;h3;h4;ul"
     format_ul: { element: 'ul', attributes: { 'class': 'csc-bulletlist' } }
