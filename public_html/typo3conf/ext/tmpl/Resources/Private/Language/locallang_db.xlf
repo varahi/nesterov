@@ -61,6 +61,28 @@
                 <source>Mainpage Slider</source>
             </trans-unit>
 
+            <trans-unit id="wizard.teaser_wrapper_title">
+                <source>Teaser</source>
+            </trans-unit>
+            <trans-unit id="wizard.teaser_wrapper_description">
+                <source>Teaser inside 3 columns</source>
+            </trans-unit>
+            <trans-unit id="wizard.teaser_wrapper_ttl">
+                <source>Title link</source>
+            </trans-unit>
+            <trans-unit id="teaser_wrapper.div">
+                <source>Teaser data</source>
+            </trans-unit>
+            <trans-unit id="teaser_wrapper.header">
+                <source>Header</source>
+            </trans-unit>
+            <trans-unit id="teaser_wrapper.bodytext">
+                <source>Bodytext</source>
+            </trans-unit>
+            <trans-unit id="teaser_wrapper.header_link">
+                <source>Link</source>
+            </trans-unit>
+
         </body>
     </file>
 </xliff>
