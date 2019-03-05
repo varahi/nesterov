@@ -2,7 +2,12 @@
 
 <main class="promo-box">
     <div class="container">
-        <f:cObject typoscriptObjectPath="lib.navigation" />
+        <nav class="menu">
+            <ul>
+                <f:cObject typoscriptObjectPath="lib.navigationMainPageLink" />
+                <f:cObject typoscriptObjectPath="lib.navigation" />
+            </ul>
+        </nav>
         <f:cObject typoscriptObjectPath="lib.bannerLogo" />
 
         <div class="row">

@@ -18,7 +18,7 @@ config {
     pageTitleSeparator.noTrimWrap = | | |
 
     # URL setup
-    tx_realurl_enable = 0
+    tx_realurl_enable = 1
     absRefPrefix = auto
 
     # some css and js cleanups

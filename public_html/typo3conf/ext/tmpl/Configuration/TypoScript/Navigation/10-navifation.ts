@@ -2,12 +2,12 @@ lib.navigation = HMENU
 lib.navigation {
     #special = list
     #special.value = 3,2
-
-    wrap = <nav class="menu">|</nav>
+    #wrap = <nav class="menu">|</nav>
+    excludeUidList = {$config.navigation.mainPageUid}
     1 = TMENU
     1 {
         expAll = 1
-        wrap = <ul>|</ul>
+        #wrap = <ul>|</ul>
         NO.wrapItemAndSub = <li>|</li>
         NO.linkWrap = <span>|</span>
         NO.ATagBeforeWrap = 1
@@ -22,4 +22,10 @@ lib.navigation {
         NO = 1
         NO.wrapItemAndSub = <li>|</li>
     }
+}
+
+lib.navigationMainPageLink = TEXT
+lib.navigationMainPageLink {
+    wrap = <li><a href="/"><span>|</span></a></li>
+    value = {$config.navigation.mainPageTitile}
 }

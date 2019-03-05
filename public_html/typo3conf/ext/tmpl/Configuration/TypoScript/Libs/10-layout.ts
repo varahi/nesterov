@@ -13,9 +13,11 @@ lib.bannerLogo {
 
 lib.logo = IMAGE
 lib.logo {
-    wrap = <div class="logo">|</div>
     file = EXT:tmpl/Resources/Public/i/logo.png
+    #file.maxW = 0c
+    #file.width = 0c
     stdWrap {
+        wrap = <div class="logo">|</div>
         typolink.parameter = {$config.layout.header.logo.link}
         typolink.title = {$config.layout.header.logo.title}
     }
@@ -25,10 +27,7 @@ lib.footerLogo = IMAGE
 lib.footerLogo {
     wrap = <div class="logo">|</div>
     file = EXT:tmpl/Resources/Public/i/logo-f.png
-    stdWrap {
-        typolink.parameter = {$config.layout.header.logo.link}
-        typolink.title = {$config.layout.header.logo.title}
-    }
+    file.maxW = 153
 }
 
 lib.topPhone = TEXT
