@@ -1,3 +1,19 @@
+lib.logo = IMAGE
+lib.logo {
+    file = EXT:tmpl/Resources/Public/i/logo.png
+    stdWrap {
+        wrap = <div class="logo">|</div>
+        typolink.parameter = {$config.layout.header.logo.link}
+        typolink.title = {$config.layout.header.logo.title}
+    }
+}
+
+lib.logo >
+lib.logo = TEXT
+lib.logo {
+    wrap = <div class="logo"><a href="/">|</a></div>
+    value = <img src="typo3conf/ext/tmpl/Resources/Public/i/logo.png" alt=""/>
+}
 
 lib.bannerLogo = IMAGE
 lib.bannerLogo {
@@ -8,18 +24,6 @@ lib.bannerLogo {
         typolink.title = {$config.layout.header.logo.title}
         #typolink.ATagParams = class="header-logo"
         #typolink.extTarget = _blank
-    }
-}
-
-lib.logo = IMAGE
-lib.logo {
-    file = EXT:tmpl/Resources/Public/i/logo.png
-    #file.maxW = 0c
-    #file.width = 0c
-    stdWrap {
-        wrap = <div class="logo">|</div>
-        typolink.parameter = {$config.layout.header.logo.link}
-        typolink.title = {$config.layout.header.logo.title}
     }
 }
 
