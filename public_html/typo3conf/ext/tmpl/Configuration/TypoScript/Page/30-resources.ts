@@ -33,7 +33,7 @@ page {
     #	10.value = <script src="/typo3conf/ext/tmpl/Resources/Public/JavaScript/functions.min.js" type="text/javascript"></script>
     #}
 
-    #shortcutIcon = EXT:tmpl/Resources/Public/Favicons/favicon.ico
+    shortcutIcon = EXT:tmpl/Resources/Public/i/favicon.ico
 }
 
 # Favicons
