@@ -7,8 +7,51 @@
     margin-bottom: 5px;
 }
 
+.slogan p {
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.site-header .phone-no:hover {
+    opacity: 1;
+}
+.site-header .phone-no {
+    /*border-bottom: 0;*/
+    font-size: 24px;
+    color: #fff;
+    opacity: .8;
+    border: 1px solid #464646;
+    padding: 3px 10px;
+}
+
+/*.site-header .links a::before*/
+
+a.phone-no::before {
+    /*content: '';
+    display: block;*/
+    /*background: url(../i/phone_icon.png);*/
+    /*background: url(../i/sprite.png);
+    background-position-x: 0%;
+    background-position-y: 0%;*/
+   /* position: absolute;
+    left: 0;
+    top: 0;*/
+
+    /*position: absolute;
+    top: 43px;
+    width: 29px;
+    height: 29px;*/
+}
+
+.site-header .phone-no span {
+    font-size: 20px;
+}
+
 @media only screen and (max-width : 600px) {
     .slider-stocks .item .text::before {
         background: none;
+    }
+    .slogan {
+        display: none;
     }
 }

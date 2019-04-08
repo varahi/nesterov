@@ -33,10 +33,10 @@ config {
     #typolinkCheckRootline = 1
     #typolinkEnableLinksAcrossDomains = 1
 
-    concatenateJs = 1
-    concatenateCss = 1
-    compressJs = 1
-    compressCss = 1
+    #concatenateJs = 1
+    #concatenateCss = 1
+    #compressJs = 1
+    #compressCss = 1
 }
 
 config.contentObjectExceptionHandler = 0

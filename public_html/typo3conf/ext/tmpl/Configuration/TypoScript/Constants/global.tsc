@@ -18,8 +18,9 @@ config {
                 title = Nesterov
             }
             contact {
-                phone = <a href="tel:+74959223941" class="phone-no">+7 (495) 922-39-41</a>
+                phone = <a href="tel:+74959223941" class="phone-no"><span>+7 (495)</span> 922-39-41</a>
             }
+            slogan = Наклейки для витрин магазинов,<br />кафе и офисов
         }
         footer {
             copyright = &copy; 2019 Декоративное оформление стеклянных витрин магазинов и кафе

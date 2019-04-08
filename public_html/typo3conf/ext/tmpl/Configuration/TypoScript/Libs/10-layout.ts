@@ -15,6 +15,13 @@ lib.logo {
     value = <img src="typo3conf/ext/tmpl/Resources/Public/i/logo.png" alt=""/>
 }
 
+lib.slogan >
+lib.slogan = TEXT
+lib.slogan {
+    wrap = <div class="slogan"><p>|</p></div>
+    value = {$config.layout.header.slogan}
+}
+
 lib.bannerLogo = IMAGE
 lib.bannerLogo {
     wrap = <div class="logotype">|</div>
