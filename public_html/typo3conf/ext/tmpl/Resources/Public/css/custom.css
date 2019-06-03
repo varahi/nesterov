@@ -35,9 +35,28 @@
     font-size: 20px;
 }
 
+.mobile-phone {
+    display: none;
+}
+
+
 @media only screen and (max-width : 780px) {
     .site-header .phone-no {
         display: none;
+    }
+}
+@media only screen and (max-width : 698px) {
+    .mobile-phone {
+        display: block;
+        background: url('../i/icon_phone.png') no-repeat 0 0;
+        background-size: 20px;
+        /*background-size: 100% auto;*/
+        position: absolute;
+        top: 12px;
+        right: 45px;
+        width: 34px;
+        height: 20px;
+        border-right: 1px solid #252525;
     }
 }
 @media only screen and (max-width : 600px) {

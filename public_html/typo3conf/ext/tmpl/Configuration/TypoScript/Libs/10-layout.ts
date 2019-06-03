@@ -47,6 +47,12 @@ lib.topPhone {
     value = {$config.layout.header.contact.phone}
 }
 
+lib.mobilePhone = TEXT
+lib.mobilePhone {
+    value = <a href="{$config.layout.header.contact.mobilePhone}"><div class="mobile-phone"></div></a>
+}
+
+
 lib.copyright = TEXT
 lib.copyright {
     wrap = <div class="copy">|</div>

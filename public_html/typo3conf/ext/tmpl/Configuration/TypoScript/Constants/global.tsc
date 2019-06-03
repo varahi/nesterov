@@ -19,6 +19,7 @@ config {
             }
             contact {
                 phone = <a href="tel:+74959223941" class="phone-no"><span>+7 (495)</span> 922-39-41</a>
+                mobilePhone = tel:+74959223941
             }
             slogan = Наклейки для витрин магазинов,<br />кафе и офисов
         }
